@@ -1,6 +1,6 @@
 # REDMI Watch 6 layout preparation / 真机验收
 
-Tracking: [issue #4](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/issues/4). Target: **REDMI Watch 6 standard edition**, not REDMI Watch 6 Active/活力版, not Xiaomi Watch 5.
+Tracking: [issue #4](https://github.com/kyn0v/MiTronome/issues/4). Target: **REDMI Watch 6 standard edition**, not REDMI Watch 6 Active/活力版, not Xiaomi Watch 5.
 
 ## What the source changes do
 

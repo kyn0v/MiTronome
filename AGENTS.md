@@ -18,7 +18,7 @@ After completing UI changes, capture and inspect screenshots of the affected scr
 
 # Repository branches
 
-The remote repository is `kyn0v/AstroBox-Xiaomi-Band-Metronome`. Develop on `source`; `main` contains CreatorConsole-managed release resources. Do not merge these independent histories. Keep the manual build workflow identical on both branches; dispatch it on `source` only. Never delete the AstroBox fork or a branch used by an open store PR.
+The remote repository is `kyn0v/MiTronome`. Develop on `source`; `main` contains CreatorConsole-managed release resources. Do not merge these independent histories. Keep the manual build workflow identical on both branches; dispatch it on `source` only. Never delete the AstroBox fork or a branch used by an open store PR.
 
 # Publication privacy
 

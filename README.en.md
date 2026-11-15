@@ -44,11 +44,11 @@ A brief click guard prevents entry/wake taps from activating newly shown control
 
 Current version is **0.6.0** (versionCode **23**), promoting the owner-accepted beta.3 without functional changes. The earlier 0.5.11 [AstroBox PR #1156](https://github.com/AstralSightStudios/AstroBox-Repo/pull/1156) was merged; publishing 0.6.0 still requires CreatorConsole submission and review. Building a package does not update the store resource.
 
-Develop on `source`; CreatorConsole manages packages and store images on [`main`](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/tree/main).
+Develop on `source`; CreatorConsole manages packages and store images on [`main`](https://github.com/kyn0v/MiTronome/tree/main).
 
 - Xiaomi Smart Band 9 Pro at 336 × 480 has user acceptance. Band 10 Pro is a local layout-preparation target at the known 336 × 480 size, not verified compatibility.
 - Band 10 Pro installation, native controls, vibration, and screen-on behavior remain unverified on hardware; it is not listed as supported.
-- **REDMI Watch 6 (standard, not Active) layout preparation is in progress** for its approximately 432 × 514 rectangular display. The four pages use shorter vertical layouts while retaining existing foreground beat logic. Only a browser approximation and local debug build have been checked: installation, native picker, vibration, screen-on and timing require real-device acceptance. See the [Watch 6 checklist](docs/redmi-watch-6.md) and [issue #4](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/issues/4). These source changes are unpublished; a local debug build is not a signed store update.
+- **REDMI Watch 6 (standard, not Active) layout preparation is in progress** for its approximately 432 × 514 rectangular display. The four pages use shorter vertical layouts while retaining existing foreground beat logic. Only a browser approximation and local debug build have been checked: installation, native picker, vibration, screen-on and timing require real-device acceptance. See the [Watch 6 checklist](docs/redmi-watch-6.md) and [issue #4](https://github.com/kyn0v/MiTronome/issues/4). These source changes are unpublished; a local debug build is not a signed store update.
 - **Foreground only.** Background experiments and capability-check screens are removed from the current package. Research and historical findings remain in the [feasibility report](docs/background-research.md).
 - Long vibration means longer duration, not more force. Fast tempos or 6/8 may merge pulses; an already-started pulse cannot be cut short. Begin testing slowly.
 - Automated tests cannot verify motor timing, native touch rendering or battery use.
@@ -72,6 +72,6 @@ The local build uses a shared debug key. Manual delivery uses the existing proje
 
 ## Feedback
 
-Include device model, firmware, app version and reproduction steps in an [issue](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/issues). Redact personal information from screenshots or video.
+Include device model, firmware, app version and reproduction steps in an [issue](https://github.com/kyn0v/MiTronome/issues). Redact personal information from screenshots or video.
 
 This is not an official Xiaomi or AstroBox application.

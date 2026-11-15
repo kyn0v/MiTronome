@@ -45,11 +45,11 @@
 
 当前版本为 **0.6.0**（versionCode **23**），功能与已验收的 0.6.0-beta.3 相同，仅转为正式版本号。此前 0.5.11 的 [AstroBox PR #1156](https://github.com/AstralSightStudios/AstroBox-Repo/pull/1156) 已合并；0.6.0 的商店更新仍需通过 CreatorConsole 提交和审核，生成安装包不代表已经上架。
 
-本仓库的 `source` 分支保存源码，[`main`](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/tree/main) 分支由 CreatorConsole 管理安装包和商店图片。
+本仓库的 `source` 分支保存源码，[`main`](https://github.com/kyn0v/MiTronome/tree/main) 分支由 CreatorConsole 管理安装包和商店图片。
 
 - 小米手环 9 Pro（336 × 480）已有用户验收。10 Pro 目前仅按已知的 336 × 480 尺寸进行本地布局准备，不代表已验证兼容。
 - 10 Pro 的安装、原生控件、振动和保持亮屏均未经过真机验证；仍不能标记为已支持。
-- **REDMI Watch 6（标准版，非活力版）布局适配进行中**：针对约 432 × 514 方屏压缩四个页面的纵向布局，复用现有前台节拍逻辑；目前仅完成本地预览和调试构建，未在真机验证安装、原生滚轮、振动、常亮或节拍时序。测试清单见 [Watch 6 适配](docs/redmi-watch-6.md)，跟踪见 [#4](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/issues/4)。此源码变更尚未发布，不应将本地调试包当作已签名的商店更新。
+- **REDMI Watch 6（标准版，非活力版）布局适配进行中**：针对约 432 × 514 方屏压缩四个页面的纵向布局，复用现有前台节拍逻辑；目前仅完成本地预览和调试构建，未在真机验证安装、原生滚轮、振动、常亮或节拍时序。测试清单见 [Watch 6 适配](docs/redmi-watch-6.md)，跟踪见 [#4](https://github.com/kyn0v/MiTronome/issues/4)。此源码变更尚未发布，不应将本地调试包当作已签名的商店更新。
 - **只支持前台运行**。后台试验和只读能力检测已从当前安装包移除；调研与历史记录见 [后台可行性调研](docs/background-research.md)。
 - 长振动表示时间较长，不代表力度更强。高速或 6/8 下可能连震，已开始的振动无法立即截断。建议先低速测试。
 - 自动化测试不能验证实际振动时序、触摸响应和耗电，仍需真机测试。
@@ -73,6 +73,6 @@ npm run build
 
 ## 反馈
 
-请在 [Issues](https://github.com/kyn0v/AstroBox-Xiaomi-Band-Metronome/issues) 中附上设备型号、固件版本、应用版本和复现步骤。截图或视频请先遮住个人信息。
+请在 [Issues](https://github.com/kyn0v/MiTronome/issues) 中附上设备型号、固件版本、应用版本和复现步骤。截图或视频请先遮住个人信息。
 
 本项目不是小米或 AstroBox 官方应用。
